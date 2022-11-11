@@ -1,0 +1,12 @@
+#hidden_div {
+    display: none;
+}
+
+.cadastro-label{
+    width: 500px;
+}
+
+.tamanho-icon{
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,54 @@
+/* body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    padding: 0 24px;
+    background: url('../../assets/images/login.jpg') no-repeat center center/cover;
+    background-image: -moz-linear-gradient();
+    @media (width >= 500px)
+    body { padding: 0; }
+  } */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    place-items: center;
+  }
+
+.navegacao {
+  padding-top: 0%;
+}
+
+.cadastro-form{
+    display: grid;
+    place-items: center;
+    width: 60%;
+    height: 100vh;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
+
+.cadastro-label{
+    width: 500px;
+  }
+
+.teste{
+  padding-bottom: 50px;
+}
+
+.botao-cadastro{
+  background-color: #3EB5BA;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.texto-cadastro{
+  color: #3EB5BA;
+  font-weight: normal;
+}

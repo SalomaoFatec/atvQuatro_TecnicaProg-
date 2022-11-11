@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  /*margin: 0;
+  height: 100vh;
+  padding: 0 24px; */
+  background: url('../../assets/images/login.jpg') no-repeat center center/cover;
+  background-image: -moz-linear-gradient();
+}
+
+.teste-form{
+  display: grid;
+  place-items: center;
+  width: 400px;
+  height: 600px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+
+.logo{
+  width: 200px;
+  height: 220px;
+}
+
+.botao-login{
+  background-color: #3EB5BA;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.login-label{
+  width: 300px;
+}
+
+.login{
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+  

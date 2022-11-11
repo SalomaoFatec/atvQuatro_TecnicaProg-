@@ -1,0 +1,29 @@
+.geral{
+    display: flex;
+    max-width: 900px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.container_acomodacoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.testezin{
+    width: 200px;
+    height: 400px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.texto-acomodacoes{
+    color: #3EB5BA;
+    font-weight: bold;
+}
