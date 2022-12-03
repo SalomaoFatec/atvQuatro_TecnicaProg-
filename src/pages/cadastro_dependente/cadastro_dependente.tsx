@@ -50,9 +50,9 @@ button?.addEventListener('click', (event) => {
 
             <div className="container-dep" >
                 <div className="cadastro-form">
-                    <Form >
-                        <img className='logo' src={imageToAdd} alt="Image" />
+                <img className='logo' src={imageToAdd} alt="Image" />
                         <h3 className='texto-cadastro'>Cadastro de dependente</h3>
+                    <Form >
                         <div className='teste'>
                             <Form.Group className="mb-1" controlId="formBasicEmail">
                                 <Form.Label className='cadastro-label'>Nome completo</Form.Label>
@@ -76,13 +76,17 @@ button?.addEventListener('click', (event) => {
                                     <Form.Control type="text" placeholder="digite o CPF" />
                                 </Form.Group>
                             </div>
-                            <div id = 'hidden_div3'>
-                                <BsPlusCircleFill className='tamanho-icon' />
+                        </div>
+                        <div className='botao-centro'>
+                        <div>
+                                <Button className ='botao-cadastro' variant="primary" type="submit">
+                                <a href="home">Voltar</a>
+                                </Button>
+                                <Button className ='botao-cadastro' variant="primary">
+                                    Cadastrar
+                                </Button>
                             </div>
                         </div>
-                        <Button className='botao-cadastro' variant="primary" type="submit">
-                            Cadastrar
-                        </Button>
                     </Form>
                 </div>
             </div>

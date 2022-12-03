@@ -8,7 +8,7 @@ function Home (){
                     <div className="box-home">
                         <div className="text">
                             <div>
-                                <p className = "texto-acomodacoes">Cadastro</p>
+                                <p className = "texto-home">Cadastro</p>
                             </div>
                         </div>
                         <div className="cont">
@@ -21,7 +21,7 @@ function Home (){
                     <div className="box-home">
                         <div className="text">
                             <div>
-                                <p className = "texto-acomodacoes">Listagens</p>
+                                <p className = "texto-home">Listagens</p>
                             </div>
                         </div>
                         <ul>
@@ -32,7 +32,7 @@ function Home (){
                     <div className="box-home">
                         <div className="text">
                             <div>
-                                <p className = "texto-acomodacoes">Acomodações</p>
+                                <p className = "texto-home">Acomodações</p>
                             </div>
                         </div>
                         <ul>

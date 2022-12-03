@@ -17,12 +17,13 @@
 }
 
 .box{
-    width: 400px;
-    height: 270px;
+    width: 550px;
+    height: 280px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+
 }
 
 .texto-acomodacoes{

@@ -13,7 +13,7 @@ function CadastroClienteTitular() {
             </div>
             <div className="container-titular">
                 <div  className="cadastro-form">
-                <img className='logo' src={imageToAdd} alt="Image" />
+                    <img className='logo' src={imageToAdd} alt="Image" />
                         <h3 className='texto-cadastro'>Cadastro de novo cliente titular</h3>
                     <Form>
                         <div className = 'teste'>
@@ -34,6 +34,10 @@ function CadastroClienteTitular() {
                                 <Form.Control type="text" placeholder="digite o RG" />
                             </Form.Group>
                             <Form.Group className="mb-1" controlId="formBasicPassword">
+                                <Form.Label className = 'cadastro-label'>Telefone</Form.Label>
+                                <Form.Control type="text" placeholder="xxx xxxx-xxxx" />
+                            </Form.Group>
+                            <Form.Group className="mb-1" controlId="formBasicPassword">
                                 <Form.Label className = 'cadastro-label'>CPF</Form.Label>
                                 <Form.Control type="text" placeholder="digite o CPF" />
                             </Form.Group>
@@ -41,15 +45,19 @@ function CadastroClienteTitular() {
                                 <Form.Label className = 'cadastro-label'>Passaporte</Form.Label>
                                 <Form.Control type="text" placeholder="digite o passaporte" />
                             </Form.Group>
-                            <a href = "cadastroDependente">Cadastre um dependente</a>
+                            <Form.Group className="mb-1" controlId="formBasicPassword">
+                                <Form.Label className = 'cadastro-label'>Endereço</Form.Label>
+                                <Form.Control type="text" placeholder="digite o endereço" />
+                            </Form.Group>
+                            <a className='texto-dep' href = "cadastroDependente">Cadastre um dependente</a>
                         </div>
                         <div  className='botoes'>
                             <div>
                                 <Button className ='botao-cadastro' variant="primary" type="submit">
-                                    Cadastrar
+                                <a href="home">Voltar</a>
                                 </Button>
                                 <Button className ='botao-cadastro' variant="primary">
-                                    Voltar
+                                    Cadastrar
                                 </Button>
                             </div>
                         </div>

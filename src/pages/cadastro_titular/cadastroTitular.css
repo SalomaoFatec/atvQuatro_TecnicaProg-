@@ -50,3 +50,9 @@
   display: flex;
   margin-bottom: 50px;
 }
+
+.texto-dep{
+  color: #3EB5BA;
+  font-weight: normal;
+  padding-bottom: 50px;
+}

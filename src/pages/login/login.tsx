@@ -22,8 +22,8 @@ function Login() {
           </Form.Group>
           <Form.Group className="mb-2" controlId="formBasicCheckbox">
           </Form.Group>
-          <Button  className="botao-login" variant="primary" type="submit">
-            Entrar
+          <Button  className="botao-login" variant="primary">
+          <a href="home">Entrar</a>
           </Button>
         </Form>
       </div>
