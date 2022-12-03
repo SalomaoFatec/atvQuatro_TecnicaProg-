@@ -1,0 +1,21 @@
+.box-home{
+    width: 250px;
+    height: 200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.botao-link{
+    background-color: #3EB5BA;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 180px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}

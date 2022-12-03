@@ -1,0 +1,23 @@
+.container-pai{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navegacao {
+    padding-top: 70px;
+    padding-bottom: 0%;
+}
+
+.container-filho {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    width: 960px;
+    height: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}

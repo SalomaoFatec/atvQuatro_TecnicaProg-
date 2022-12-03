@@ -11,18 +11,14 @@ function Navegacao() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Acomodações</Nav.Link>
+            <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="acomodacoes">Acomodações</Nav.Link>
             <NavDropdown title="Clientes" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Titulares</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="todosTitulares">Titulares</NavDropdown.Item>
+              <NavDropdown.Item href="todosDependentes">
                 Dependentes
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Cadastro</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="cadastro">Cadastro</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

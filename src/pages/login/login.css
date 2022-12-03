@@ -1,15 +1,17 @@
 body {
-  display: grid;
-  /*margin: 0;
+  width: 100vw;
   height: 100vh;
-  padding: 0 24px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: url('../../assets/images/login.jpg') no-repeat center center/cover;
   background-image: -moz-linear-gradient();
 }
 
 .teste-form{
   display: grid;
-  place-items: center;
+  place-items: center !important;
   width: 400px;
   height: 600px;
   padding: 25px;

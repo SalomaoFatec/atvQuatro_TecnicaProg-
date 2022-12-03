@@ -41,52 +41,50 @@ button?.addEventListener('click', (event) => {
   elementClicked = true;
 });
 
-
-
-
-
     return (
         <>
 
-            <div className='navegacao'>
+            <div className='navegacao-dep'>
                 <Navegacao />
             </div>
 
-            <div className="container" >
-                <Form className="cadastro-form">
-                    <img className='logo' src={imageToAdd} alt="Image" />
-                    <h3 className='texto-cadastro'>Cadastro de dependente</h3>
-                    <div className='teste'>
-                        <Form.Group className="mb-1" controlId="formBasicEmail">
-                            <Form.Label className='cadastro-label'>Nome completo</Form.Label>
-                            <Form.Control type="text" placeholder="digite nome completo" />
-                        </Form.Group>
-                        <Form.Label className = 'cadastro-label'>Selecione documento para ser cadastrado</Form.Label>
-                        <Form.Select className='cadastro-label' id="test" name="form_select" onChange={(event) => showDiv(event)}>
-                            <option value="0">Selecione</option>
-                            <option value="1">RG</option>
-                            <option value="2">CPF</option>
-                        </Form.Select>
-                        <div id="hidden_div">
-                            <Form.Group className="mb-1" controlId="formBasicPassword">
-                                <Form.Label className='cadastro-label'>RG</Form.Label>
-                                <Form.Control type="text" placeholder="digite o RG" />
+            <div className="container-dep" >
+                <div className="cadastro-form">
+                    <Form >
+                        <img className='logo' src={imageToAdd} alt="Image" />
+                        <h3 className='texto-cadastro'>Cadastro de dependente</h3>
+                        <div className='teste'>
+                            <Form.Group className="mb-1" controlId="formBasicEmail">
+                                <Form.Label className='cadastro-label'>Nome completo</Form.Label>
+                                <Form.Control type="text" placeholder="digite nome completo" />
                             </Form.Group>
+                            <Form.Label className = 'cadastro-label'>Selecione documento para ser cadastrado</Form.Label>
+                            <Form.Select className='cadastro-label' id="test" name="form_select" onChange={(event) => showDiv(event)}>
+                                <option value="0">Selecione</option>
+                                <option value="1">RG</option>
+                                <option value="2">CPF</option>
+                            </Form.Select>
+                            <div id="hidden_div">
+                                <Form.Group className="mb-1" controlId="formBasicPassword">
+                                    <Form.Label className='cadastro-label'>RG</Form.Label>
+                                    <Form.Control type="text" placeholder="digite o RG" />
+                                </Form.Group>
+                            </div>
+                            <div id="hidden_div2">
+                                <Form.Group className="mb-1" controlId="formBasicPassword">
+                                    <Form.Label className='cadastro-label'>CPF</Form.Label>
+                                    <Form.Control type="text" placeholder="digite o CPF" />
+                                </Form.Group>
+                            </div>
+                            <div id = 'hidden_div3'>
+                                <BsPlusCircleFill className='tamanho-icon' />
+                            </div>
                         </div>
-                        <div id="hidden_div2">
-                            <Form.Group className="mb-1" controlId="formBasicPassword">
-                                <Form.Label className='cadastro-label'>CPF</Form.Label>
-                                <Form.Control type="text" placeholder="digite o CPF" />
-                            </Form.Group>
-                        </div>
-                        <div id = 'hidden_div3'>
-                            <BsPlusCircleFill className='tamanho-icon' />
-                        </div>
-                    </div>
-                    <Button className='botao-cadastro' variant="primary" type="submit">
-                        Cadastrar
-                    </Button>
-                </Form>
+                        <Button className='botao-cadastro' variant="primary" type="submit">
+                            Cadastrar
+                        </Button>
+                    </Form>
+                </div>
             </div>
         </>
 

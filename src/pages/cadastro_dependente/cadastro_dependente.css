@@ -10,3 +10,17 @@
     width: 25px;
     height: 25px;
 }
+
+.container-dep{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navegacao-dep {
+    height: 5px;
+}

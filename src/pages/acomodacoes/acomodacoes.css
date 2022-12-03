@@ -1,8 +1,11 @@
 .geral{
     display: flex;
-    max-width: 900px;
-	margin: 0 auto;
-	flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
 }
 
 .container_acomodacoes{
@@ -10,20 +13,40 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px;
+    width: 80%;
 }
 
-.testezin{
-    width: 200px;
-    height: 400px;
+.box{
+    width: 400px;
+    height: 270px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
-    margin-right: 20px;
-    align-items: center;
 }
 
 .texto-acomodacoes{
     color: #3EB5BA;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.text{
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+    padding: 10px;
+}
+
+.modal{
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+    padding: 10px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
